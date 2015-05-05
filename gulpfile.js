@@ -2,6 +2,6 @@ var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('publish-page', function() {
-     return gulp.src('./gh-pages/**/*')
+     return gulp.src('./pages/**/*')
      .pipe(ghPages());
 });
